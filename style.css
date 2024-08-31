@@ -1085,6 +1085,10 @@ input[type="range"]:active::-webkit-slider-thumb {
   width: 24px;
 }
 
+.w-\[305px\] {
+  width: 305px;
+}
+
 .w-\[332px\] {
   width: 332px;
 }
@@ -1123,10 +1127,6 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-\[305px\] {
-  width: 305px;
 }
 
 .min-w-\[498px\] {
@@ -2328,10 +2328,6 @@ input[type="range"]:active::-webkit-slider-thumb {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'\/img\/BG\.png\'\)\] {
-  background-image: url('/img/BG.png');
 }
 
 .decoration-slice {
