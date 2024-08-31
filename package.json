@@ -1,17 +1,17 @@
 {
-  "name": "georgianelectricgroup.com",
+  "name": "template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx tailwindcss -o ./style.css --watch"
+    "dev": "npx tailwindcss -o ./style.css --watch & live-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "tailwindcss": "^3.4.3",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10",
     "tw-elements": "^2.0.0"
   }
 }
