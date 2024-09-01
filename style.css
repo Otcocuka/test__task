@@ -777,6 +777,10 @@ input[type="range"]:active::-webkit-slider-thumb {
   bottom: 0px;
 }
 
+.bottom-\[-164px\] {
+  bottom: -164px;
+}
+
 .bottom-\[2px\] {
   bottom: 2px;
 }
@@ -797,6 +801,10 @@ input[type="range"]:active::-webkit-slider-thumb {
   right: 0px;
 }
 
+.right-\[262\.27px\] {
+  right: 262.27px;
+}
+
 .right-\[2px\] {
   right: 2px;
 }
@@ -809,16 +817,16 @@ input[type="range"]:active::-webkit-slider-thumb {
   top: -73px;
 }
 
+.top-\[306px\] {
+  top: 306px;
+}
+
 .isolate {
   isolation: isolate;
 }
 
 .isolation-auto {
   isolation: auto;
-}
-
-.z-0 {
-  z-index: 0;
 }
 
 .z-10 {
@@ -918,6 +926,14 @@ input[type="range"]:active::-webkit-slider-thumb {
   margin-bottom: 2rem;
 }
 
+.mb-\[17px\] {
+  margin-bottom: 17px;
+}
+
+.mb-\[429px\] {
+  margin-bottom: 429px;
+}
+
 .mb-\[60px\] {
   margin-bottom: 60px;
 }
@@ -956,10 +972,6 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .mt-\[73px\] {
   margin-top: 73px;
-}
-
-.mb-\[17px\] {
-  margin-bottom: 17px;
 }
 
 .box-border {
@@ -1077,6 +1089,10 @@ input[type="range"]:active::-webkit-slider-thumb {
   height: 6rem;
 }
 
+.h-8 {
+  height: 2rem;
+}
+
 .h-\[121px\] {
   height: 121px;
 }
@@ -1141,8 +1157,20 @@ input[type="range"]:active::-webkit-slider-thumb {
   height: 578px;
 }
 
+.h-\[593px\] {
+  height: 593px;
+}
+
 .h-\[611px\] {
   height: 611px;
+}
+
+.h-\[645px\] {
+  height: 645px;
+}
+
+.h-\[682px\] {
+  height: 682px;
 }
 
 .h-\[69px\] {
@@ -1197,8 +1225,16 @@ input[type="range"]:active::-webkit-slider-thumb {
   width: 0.5rem;
 }
 
+.w-8 {
+  width: 2rem;
+}
+
 .w-\[100\%\] {
   width: 100%;
+}
+
+.w-\[1400px\] {
+  width: 1400px;
 }
 
 .w-\[1401px\] {
@@ -1245,6 +1281,10 @@ input[type="range"]:active::-webkit-slider-thumb {
   width: 52px;
 }
 
+.w-\[630\.73px\] {
+  width: 630.73px;
+}
+
 .w-\[677px\] {
   width: 677px;
 }
@@ -1253,12 +1293,20 @@ input[type="range"]:active::-webkit-slider-thumb {
   width: 680px;
 }
 
+.w-\[684px\] {
+  width: 684px;
+}
+
 .w-\[698px\] {
   width: 698px;
 }
 
 .w-\[704px\] {
   width: 704px;
+}
+
+.w-\[733px\] {
+  width: 733px;
 }
 
 .w-\[80px\] {
@@ -1897,12 +1945,20 @@ input[type="range"]:active::-webkit-slider-thumb {
   gap: 0.75rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .gap-6 {
   gap: 1.5rem;
 }
 
 .gap-7 {
   gap: 1.75rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .gap-\[18px\] {
@@ -1935,6 +1991,10 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .gap-\[48px\] {
   gap: 48px;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2646,6 +2706,14 @@ input[type="range"]:active::-webkit-slider-thumb {
      object-fit: scale-down;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-12 {
+  padding: 3rem;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -2773,6 +2841,10 @@ input[type="range"]:active::-webkit-slider-thumb {
   padding-top: 100px;
 }
 
+.pt-\[264px\] {
+  padding-top: 264px;
+}
+
 .pt-\[31px\] {
   padding-top: 31px;
 }
@@ -2783,6 +2855,18 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .pt-\[94px\] {
   padding-top: 94px;
+}
+
+.pb-\[105px\] {
+  padding-bottom: 105px;
+}
+
+.pb-\[107px\] {
+  padding-bottom: 107px;
+}
+
+.pt-\[80px\] {
+  padding-top: 80px;
 }
 
 .text-left {
@@ -2846,6 +2930,10 @@ input[type="range"]:active::-webkit-slider-thumb {
   line-height: 2rem;
 }
 
+.text-\[18px\] {
+  font-size: 18px;
+}
+
 .text-\[20px\] {
   font-size: 20px;
 }
@@ -2880,15 +2968,6 @@ input[type="range"]:active::-webkit-slider-thumb {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-\[18px\] {
-  font-size: 18px;
 }
 
 .font-bold {
@@ -2983,6 +3062,10 @@ input[type="range"]:active::-webkit-slider-thumb {
   line-height: 1.6;
 }
 
+.leading-\[21px\] {
+  line-height: 21px;
+}
+
 .leading-\[31px\] {
   line-height: 31px;
 }
@@ -2999,16 +3082,8 @@ input[type="range"]:active::-webkit-slider-thumb {
   line-height: 1.5;
 }
 
-.leading-\[21px\] {
-  line-height: 21px;
-}
-
-.leading-\[15px\] {
-  line-height: 15px;
-}
-
-.leading-\[10px\] {
-  line-height: 10px;
+.leading-\[24px\] {
+  line-height: 24px;
 }
 
 .tracking-normal {
