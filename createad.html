@@ -1,0 +1,412 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template</title>
+  <link href="./style.css" rel="stylesheet">
+  <link href="./fonts.css" rel="stylesheet">
+  <link href="./carousel.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css"/>
+
+  
+  <!-- Подгрузи шрифты -->
+
+
+
+</head>
+
+<body class="bg-[#F5F5F5] text-[#131515] font-sf-pro">
+    <header id="header" class="px-[100px]">
+        <div class="flex justify-between items-center h-[156px]">
+          <a href="index.html"><img src=" ./img/Logo.png" alt="logo"></a>
+          <div class="flex lg:w-[775px] justify-between items-center">
+            <nav>
+              <ul class="flex text-xl uppercase justify-between w-[305px]">
+                <li><a href="index.html#about">О проекте</a>
+                </li>
+                <li><a href="index.html#contacts">Контакты</a></li>
+              </ul>
+            </nav>
+            <a href="createad.html">
+              <button
+                class="text-white rounded-[50px] bg-[#0297D4] hover:opacity-[0.8] active:bg-[#077AA9] active:opacity-100 disabled:bg-[#B3C8D1] w-[336px] text-xl font-semibold flex gap-2 items-center justify-center px-9 py-4 h-[56px] uppercase text-nowrap">Добавить
+                объявление</button>
+            </a>
+          </div>
+        </div>
+    
+      </header>
+
+  <div
+    class="flex h-[142px] bg-[url(' ./img/BG.png')] bg-cover justify-around items-center pt-[36.5px] pb-[45.5px] bg-center"
+    style="background-image: url('./img/BG.png');">
+    <h1 class="font-bold text-[50px] text-white leading-[60px]">Создание объявления</h1>
+  </div>
+
+  
+  
+  
+
+  <section class="form px-[260px] pt-[106px] pb-[100px] relative">
+    <div class="flex gap-2 mb-[60px]">
+        <img src="./img/marketeq_money-alt-1.png" alt="money" class="w-[104px] h-[93px]">
+        <p class="text-[26px] leading-[31px] text-left">
+            Заполните все поля формы на размещение своего объявления на сайте. <br>
+            Размещение объявления платное. Стоимость за одно объявление составляет <strong>990 руб</strong>.<br>
+            Объявление будет опубликовано на сайте после оплаты и проверки модератором.
+        </p>
+    </div>
+
+
+    <div class="flex flex-col gap-[53px]">
+        <div class="flex flex-col gap-7 mx-[301px]">
+            <div class="flex flex-col gap-3">
+                <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">Выберете город</label>
+            <!-- <input type="text" class="rounded-[10px] border border-[#0297D4] h-[54px]"> -->
+            <div class="relative" data-twe-dropdown-ref>
+                <button
+                  class="flex items-center px-6 text-[26px] leading-[31px] rounded-[10px] border border-[#0297D4] h-[54px] w-[100%] text-[#131515]  transition duration-150 ease-in-out  bg-white justify-between"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-twe-dropdown-toggle-ref
+                  aria-expanded="false"
+                  data-twe-ripple-init
+                  data-twe-ripple-color="light">
+                  Москва
+                  <div class="">
+                    <img src="./img/Frame 8 (1).png" alt="arrow">
+                  </div>
+                </button>
+                <ul
+                  class="absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden rounded-lg border-none bg-white bg-clip-padding text-base shadow-lg data-[twe-dropdown-show]:block dark:bg-surface-dark"
+                  aria-labelledby="dropdownMenuButton1"
+                  data-twe-dropdown-menu-ref>
+                  <li>
+                    <a
+                      class="block w-full whitespace-nowrap bg-white px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-zinc-200/60 focus:bg-zinc-200/60 focus:outline-none active:bg-zinc-200/60 active:no-underline dark:bg-surface-dark dark:text-white dark:hover:bg-neutral-800/25 dark:focus:bg-neutral-800/25 dark:active:bg-neutral-800/25"
+                      href="#"
+                      data-twe-dropdown-item-ref
+                      >Город</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="block w-full whitespace-nowrap bg-white px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-zinc-200/60 focus:bg-zinc-200/60 focus:outline-none active:bg-zinc-200/60 active:no-underline dark:bg-surface-dark dark:text-white dark:hover:bg-neutral-800/25 dark:focus:bg-neutral-800/25 dark:active:bg-neutral-800/25"
+                      href="#"
+                      data-twe-dropdown-item-ref
+                      >Город</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="block w-full whitespace-nowrap bg-white px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-zinc-200/60 focus:bg-zinc-200/60 focus:outline-none active:bg-zinc-200/60 active:no-underline dark:bg-surface-dark dark:text-white dark:hover:bg-neutral-800/25 dark:focus:bg-neutral-800/25 dark:active:bg-neutral-800/25"
+                      href="#"
+                      data-twe-dropdown-item-ref
+                      >Город</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="flex flex-col gap-3">
+                <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">Ваше имя</label>
+                <input type="text"
+                    class="flex items-center px-6 text-[26px] leading-[31px] rounded-[10px] border border-[#0297D4] h-[54px] w-[100%] text-[#131515] focus:border-none">
+            </div>
+            
+            
+            <div class="flex flex-col gap-3">
+                <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">Номер мобильного телефона</label>
+                <input type="tel" placeholder="+7 (999) 999 99 99"
+                    class="flex items-center px-6 text-[26px] leading-[31px] rounded-[10px] border border-[#0297D4] h-[54px] w-[100%] text-[#131515] focus:border-none">
+            </div>
+            
+            
+            <div class="flex flex-col gap-3">
+                <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">Номер городского телефона</label>
+                <input type="tel" placeholder="+7 (999) 999 99 99"
+                    class="flex items-center px-6 text-[26px] leading-[31px] rounded-[10px] border border-[#0297D4] h-[54px] w-[100%] text-[#131515] focus:border-none">
+            </div>
+            
+            
+            <div class="flex flex-col gap-3">
+                <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">Ваш email</label>
+                <input type="email" placeholder="example@gmail.com"
+                    class="flex items-center px-6 text-[26px] leading-[31px] rounded-[10px] border border-[#0297D4] h-[54px] w-[100%] text-[#131515] focus:border-none">
+            </div>
+            
+            
+            
+            <div class="flex flex-col gap-3">
+                <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">Адрес стоянки эвакуатора</label>
+                <input type="text"
+                    class="flex items-center px-6 text-[26px] leading-[31px] rounded-[10px] border border-[#0297D4] h-[54px] w-[100%] text-[#131515] focus:border-none">
+            </div>
+
+
+            
+        </div>
+
+        <div class="flex justify-center items-center gap-5">
+            <div class="border border-[#0297D4] w-[100%] h-[1px]"></div>
+            <h2 class="text-[26px] leading-[31px] uppercase text-[#4A585E]">Информация</h2>
+            <div class="border border-[#0297D4] w-full"></div>
+        </div>
+
+
+        <div class="flex flex-col gap-7 mx-[301px]">
+
+            <div class="flex flex-col gap-3">
+                <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">Заголовок объявления</label>
+                <input type="text" placeholder="Не более 50 символов"
+                    class="flex items-center px-6 text-[26px] leading-[31px] rounded-[10px] border border-[#0297D4] h-[54px] w-[100%] text-[#131515] focus:border-none">
+            </div>
+
+            <div class="flex flex-col gap-3">
+                <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">Описание объявления</label>
+                <input type="text" placeholder="Не более 50 символов"
+                    class="flex px-6 text-[26px] leading-[31px] rounded-[10px] border border-[#0297D4] h-[346px] w-[100%] text-[#131515] focus:border-none">
+            </div>
+
+
+            
+        </div>
+
+        <div class="flex justify-center items-center gap-5">
+            <div class="border border-[#0297D4] w-[100%] h-[1px]"></div>
+            <h2 class="text-[26px] leading-[31px] uppercase text-[#4A585E]">цены</h2>
+            <div class="border border-[#0297D4] w-full"></div>
+        </div>
+
+
+        <div class="flex flex-col gap-7 mx-[301px]">
+
+            <div class="flex flex-col gap-3">
+                <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">Легковые автомобили</label>
+                <div class="flex justify-between">
+                    <div class="flex gap-4 items-center">
+                        <input type="number"
+                        class="flex items-center px-6 text-[26px] leading-[31px] rounded-[10px] border border-[#0297D4] h-[54px] w-[322px] text-[#131515] focus:border-none">
+    
+                        <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">рублей</label>
+                    </div>
+                    <div class="gap-3 items-center flex">
+                        <input type="checkbox" name="" id="" class="w-6 h-6 border border-[#0297D4] custom-checkbox">
+                        <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">Услугу не оказываю</label>
+                    </div>
+                </div>
+            </div>
+
+            <style>
+                /* Кастомный стиль для чекбоксов */
+                .custom-checkbox {
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    appearance: none;
+                    width: 1.5em;
+                    height: 1.5em;
+                    border: 1px solid #0297D4;
+                    /* Цвет бордера по умолчанию */
+                    border-radius: 0.375rem;
+                    /* Радиус скругления углов */
+                    background-color: white;
+                    cursor: pointer;
+                    outline: none;
+                }
+            
+                /* .custom-checkbox:checked { */
+                    /* border-color: #0297D4; */
+                    /* Цвет бордера при активном состоянии */
+                    /* background-color: #3b82f6; */
+                    /* Цвет фона при активном состоянии */
+                /* } */
+            
+                .custom-checkbox:checked::after {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    top: 61.3%;
+                    left: 57.8%;
+                    transform: translate(-50%, -50%);
+                    width: 1em;
+                    height: 1em;
+                    background-image: url('./img/Vector\ 6.png'); /* Замените на URL вашего изображения */
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+            </style>
+
+            
+        </div>
+        
+        
+        <div class="flex flex-col gap-7 mx-[301px]">
+            <div class="flex flex-col gap-3">
+                <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">Мототехника</label>
+                <div class="flex justify-between">
+                    <div class="flex gap-4 items-center">
+                        <input type="number"
+                        class="flex items-center px-6 text-[26px] leading-[31px] rounded-[10px] border border-[#0297D4] h-[54px] w-[322px] text-[#131515] focus:border-none">
+    
+                        <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">рублей</label>
+                    </div>
+                    <div class="gap-3 items-center flex">
+                        <input type="checkbox" name="" id="" class="w-6 h-6 border border-[#0297D4] custom-checkbox">
+                        <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">Услугу не оказываю</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col gap-7 mx-[301px]">
+            <div class="flex flex-col gap-3">
+                <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">Внедорожник</label>
+                <div class="flex justify-between">
+                    <div class="flex gap-4 items-center">
+                        <input type="number"
+                        class="flex items-center px-6 text-[26px] leading-[31px] rounded-[10px] border border-[#0297D4] h-[54px] w-[322px] text-[#131515] focus:border-none">
+    
+                        <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">рублей</label>
+                    </div>
+                    <div class="gap-3 items-center flex">
+                        <input type="checkbox" name="" id="" class="w-6 h-6 border border-[#0297D4] custom-checkbox">
+                        <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">Услугу не оказываю</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col gap-7 mx-[301px]">
+            <div class="flex flex-col gap-3">
+                <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">Микроавтобус</label>
+                <div class="flex justify-between">
+                    <div class="flex gap-4 items-center">
+                        <input type="number"
+                        class="flex items-center px-6 text-[26px] leading-[31px] rounded-[10px] border border-[#0297D4] h-[54px] w-[322px] text-[#131515] focus:border-none">
+    
+                        <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">рублей</label>
+                    </div>
+                    <div class="gap-3 items-center flex">
+                        <input type="checkbox" name="" id="" class="w-6 h-6 border border-[#0297D4] custom-checkbox">
+                        <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">Услугу не оказываю</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col gap-7 mx-[301px]">
+            <div class="flex flex-col gap-3">
+                <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">Загородный тариф</label>
+                <div class="flex justify-between">
+                    <div class="flex gap-4 items-center">
+                        <input type="number"
+                        class="flex items-center px-6 text-[26px] leading-[31px] rounded-[10px] border border-[#0297D4] h-[54px] w-[322px] text-[#131515] focus:border-none">
+    
+                        <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">рублей</label>
+                    </div>
+                    <div class="gap-3 items-center flex">
+                        <input type="checkbox" name="" id="" class="w-6 h-6 border border-[#0297D4] custom-checkbox">
+                        <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">Услугу не оказываю</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex justify-center items-center gap-5">
+            <div class="border border-[#0297D4] w-[100%] h-[1px]"></div>
+            <h2 class="text-[26px] leading-[31px] uppercase text-[#4A585E]">фото</h2>
+            <div class="border border-[#0297D4] w-full"></div>
+        </div>
+
+
+        <div class="flex flex-col gap-3 mx-[301px]">
+<!-- 
+            <label for="">Прикрепите фотографию к объявлению</label>
+            <input type="file" class="rounded-[50px] border-[#0297D4] bg-[#0297D4]">
+ -->
+
+
+
+
+            <style>
+                /* Скрыть стандартный input[type="file"] */
+                .file-input {
+                  display: none;
+                }
+              </style>
+
+                <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">Прикрепите фотографию к объявлению</label>
+                <label for="file-upload" class="block w-[335px] hover:text-white hover:bg-[#0297D4] font-semibold text-[20px] leading-[24px] border-[#0297D4] border-2 rounded-[50px] text-center text-[#0297D4] bg-transparent  py-4 px-[107.5px] cursor-pointer text-nowrap uppercase">
+                  Загрузить
+                </label>
+                <input id="file-upload" type="file" class="file-input" />
+                <!-- <div id="file-name" class="mt-2 text-gray-700">Файл не выбран</div> -->
+              </div>
+            
+              <script>
+                // Обработка выбора файла и отображение имени файла
+                const fileInput = document.getElementById('file-upload');
+                const fileNameDisplay = document.getElementById('file-name');
+            
+                fileInput.addEventListener('change', function() {
+                  const file = this.files[0];
+                  if (file) {
+                    fileNameDisplay.textContent = file.name;
+                  } else {
+                    fileNameDisplay.textContent = 'Файл не выбран';
+                  }
+                });
+              </script>
+
+
+
+        
+
+
+
+    </div>
+
+
+
+    <div class="flex-col flex gap-6 mt-[60px] items-center">
+        <div class="flex  gap-3 mx-[301px] items-start">
+            <input type="checkbox" name="" id="" class="w-6 h-6 border border-[#0297D4] custom-checkbox">
+            <label for="" class="text-[22px] leading-[26px] text-[#4A585E]">Я соглашаюсь с правилами использования сервиса, а также с передачей и обработкой моих данных в evarus.ru. Я подтверждаю своё совершеннолетие и ответственность за размещение.</label>
+            
+        </div>
+        <button class="text-white rounded-[50px] bg-[#0297D4] hover:opacity-[0.8] active:bg-[#077AA9] active:opacity-100 disabled:bg-[#B3C8D1] w-[336px] text-xl font-semibold flex gap-2 items-center justify-center px-9 py-4 h-[56px] uppercase text-nowrap">продолжить</button>
+    </div>
+    
+    
+  
+    <a href="#header"><img src="./img/Frame 32.png" alt="toTop_arrow" class="absolute bottom-[35px] right-[73px]"></a>
+    
+  
+  </section>
+
+
+
+  <footer class="px-[260px] pt-[41px] pb-[87px] bg-[#586C75] h-[240px] text-white">
+    <div class="flex gap-[75px] items-center">
+      <a href="index.html"><img src="./img/Logo.png" alt="footer_logo" class="h-[112px] w-[112px]"></a>
+      
+      <nav>
+        <ul class="flex justify-between w-[1213px] uppercase leading-[19px]">
+          <li><a href="index.html#cars">Вызвать эвакуатор</a></li>
+          <li><a href="createad.html">Добавить эвакуатор на сайт</a></li>
+          <li><a href="#">Помощь</a></li>
+          <li><a href="#">Правила оплаты</a></li>
+          <li><a href="#">Защита персональных данных</a></li>
+        </ul>
+      </nav>
+  
+    </div>
+  </footer>
+
+
+  <script type="script" src="./script.js"></script>
+  <script type="text/javascript" src="/node_modules/tw-elements/js/tw-elements.umd.min.js"></script>
+
+</body>
+
+</html>
